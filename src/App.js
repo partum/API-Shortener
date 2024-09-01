@@ -1,11 +1,24 @@
-import './App.css';
-import Header from './components/header.js'
+import './styles/App.css';
+import Nav from './components/nav.js'
+import Hero from './components/hero.js'
+import Stats from './components/stats.js'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>test</h1>
-      <Header/>
+      
+      <div class="container">
+        <Nav/>
+      </div>
+      <Hero/>
+      <div className='stats'>
+        <Stats/>
+      </div>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>. 
+        Coded by <a href="https://partum.github.io" target="_blank" rel="noreferrer">Julia Arrington</a>.
+      </div>
     </div>
   );
 }
