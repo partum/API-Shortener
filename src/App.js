@@ -3,6 +3,7 @@ import Nav from './components/nav.js'
 import Hero from './components/hero.js'
 import Stats from './components/stats.js'
 import Cta from './components/cta.js'
+import Bar from './components/bar.js'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Nav/>
       </div>
       <Hero/>
+      <Bar/>
       <div className='stats'>
         <Stats/>
       </div>
